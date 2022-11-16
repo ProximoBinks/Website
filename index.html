@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Parralax Scrolling Website | Vanilla Javascript </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        <body>
+            <header>
+                <a href="#" class="logo">logo</a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <section>
+                <img src="stars.png" id="stars">
+                <img src="moon.png" id="moon">
+                <img src="mountains_behind.png" id="mountains_behind">
+                <h2 id="text">Moon Light</h2>
+                <a href="#sec" id="btn">Explore</a>
+                <img src="mountains_front.png" id="mountains_front">
+            </section>
+            <div class="sec" id="sec">
+                <h2>Parallax Scrolling Effects</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Eveniet voluptate consequatur voluptatum accusamus esse quibusdam officiis optio similique illo ab quo ipsum veritatis, in, doloribus ducimus beatae enim voluptatem maiores? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis asperiores nihil dicta sed sapiente, totam vitae. Adipisci assumenda ipsam laboriosam consectetur veritatis sapiente, cumque delectus nihil aperiam id asperiores ea? <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat excepturi sapiente adipisci nulla eveniet neque quidem, dolor, repellendus incidunt blanditiis eos ex unde veritatis esse! Molestiae quos quia assumenda! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat minus error explicabo soluta necessitatibus dolores veniam maxime eos quidem, atque fuga sit vel in inventore reprehenderit accusamus assumenda culpa officiis?</p>
+            </div>
+
+            <script>
+                let stars=document.getElementsByID('stars');
+                let moon=document.getElementsByID('moon');
+                let mountains_behind=document.getElementsByID('mountains_behind');
+                let text=document.getElementsByID('text');
+                let btn=document.getElementsByID('btn');
+                let mountains_front=document.getElementsByID('mountains_front');
+
+                window.addEventListener('scroll',function(){
+                    let value=window.scrollY;
+                    stars.style.left = value * 0.25 + 'px';
+                    moon.style.top = value * 1.05 + 'px';
+
+                })
+            </script>
+        </body>
+</html>
