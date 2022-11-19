@@ -74,6 +74,26 @@ section h1{
     padding-top: 30px;
 }
 
+section h2{
+    position: relative;
+    justify-content: left;
+    display:flex;
+    color:#fff;
+    font-weight:500;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+section h3{
+    position: relative;
+    justify-content: left;
+    display:flex;
+    color:#fff;
+    font-size: 40px;
+    font-weight:700;
+    padding-top: 30px;
+}
+
 section img#matlab{
     position:relative;
     justify-content: center;
@@ -91,6 +111,14 @@ section p{
     padding-top: 20px;
 }
 
+section p1{
+    position:relative;
+    justify-content: lefft;
+    display:flex;
+    color:#fff;
+    padding-top: 20px;
+}
+
 section img#simcity4{
     position:relative;
     justify-content: center;
@@ -101,9 +129,13 @@ section img#simcity4{
 }
 
 footer {
+    position: relative;
     width: 100%;
-    padding: 100px;
-    display:flex;
+    height: 8vh;
+    padding: 10px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    overflow: hidden;
     color: #fff;
 }
