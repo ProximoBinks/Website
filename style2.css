@@ -60,15 +60,24 @@ header ul li a.active {
 }
 
 section {
-    max-width: 960px;
+    padding-top: 10%;
     margin: 0 auto;
     overflow: hidden;
 }
 
+section h1{
+    justify-content: left;
+    display:flex;
+    color:#fff;
+    font-weight: 300;
+}
+
 section img#matlab{
-    width: 100%;
+    justify-content: center;
+    max-width: 960px;
     padding-top: 20%;
     pointer-events: none;
+    display: flex;
 }
 
 footer {
