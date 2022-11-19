@@ -83,7 +83,7 @@ section img#matlab{
     pointer-events: none;
 }
 
-section d1{
+section p{
     position:relative;
     justify-content: center;
     display:flex;
@@ -93,8 +93,8 @@ section d1{
 
 footer {
     width: 100%;
-    padding: 10px;
-    display: flex;
+    padding: 100px;
+    display:flex;
     justify-content: center;
     color: #fff;
 }
