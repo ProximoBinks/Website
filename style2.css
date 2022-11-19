@@ -91,6 +91,15 @@ section p{
     padding-top: 20px;
 }
 
+section img#simcity4{
+    position:relative;
+    justify-content: center;
+    display:flex;
+    width: 100%;
+    padding-top: 20px;
+    pointer-events: none;
+}
+
 footer {
     width: 100%;
     padding: 100px;
