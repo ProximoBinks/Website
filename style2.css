@@ -128,10 +128,24 @@ section img#simcity4{
     pointer-events: none;
 }
 
-section img#linkedin{
-    width: 50px;
+section img#email{
+    height: 50px;
     filter: invert(99%) sepia(0%) saturate(1646%) hue-rotate(106deg) brightness(116%) contrast(100%);
     padding-top: 20px;
+}
+
+section img#linkedin{
+    height: 50px;
+    filter: invert(99%) sepia(0%) saturate(1646%) hue-rotate(106deg) brightness(116%) contrast(100%);
+    padding-top: 20px;
+    padding-left:10px;
+}
+
+section img#github{
+    height: 50px;
+    filter: invert(99%) sepia(0%) saturate(1646%) hue-rotate(106deg) brightness(116%) contrast(100%);
+    padding-top: 20px;
+    padding-left:10px;
 }
 
 footer {
