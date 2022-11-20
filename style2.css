@@ -128,6 +128,12 @@ section img#simcity4{
     pointer-events: none;
 }
 
+section img#linkedin{
+    width: 50px;
+    filter: invert(99%) sepia(0%) saturate(1646%) hue-rotate(106deg) brightness(116%) contrast(100%);
+    padding-top: 20px;
+}
+
 footer {
     position: relative;
     width: 100%;
